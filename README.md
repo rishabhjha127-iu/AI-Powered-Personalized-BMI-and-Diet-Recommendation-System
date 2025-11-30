@@ -13,6 +13,8 @@ Digital health platforms, which can offer personalized insight, facilitate track
 
 This project will work in to offer a brief solution to these issues, through a web-based health management system that provides AI-based recommendation algorithms, visual or graphic tracking options, and automatic recommendations and updates. By monitoring user health metrics, structured guidance, and engagement consistently, the system will help in enabling users to make decisions based on, and to improve their knowledge, skills, and abilities, and attempt to put into practice specific healthy behavior changes. In the ideal case of the study, user successes will lead ultimately to improved decision-making, and the maintenance of your behavioral change cycle, behavioral change behavior, and eventually the maintenance of healthier habits.
 
+   Note: This project is currently running live on https://diabetesday.demotestsite.link/.Please view it for further outcome.
+
 Project Goals:
 
 --> To create a cloud-based health management application that calculates the user’s Body Mass Index (BMI) based on information provided by the user such as age, gender, height, and weight.
