@@ -1,66 +1,134 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Title:AI-Powered Personalized BMI and Diet Recommendation System 
+Phase 3-Finaltion Phase
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Problem Statement: Unhealthy lifestyles spreading as a global epidemic, personalized digital health solutions will help promote consistent engagement. Most people find it hard to understand their BMI or follow through good fitness plans. Existing BMI calculators only show a number without any tips or encouragement for determining sustained care to take.
 
-## About Laravel
+Proposed Solution: This project envisages a web-based application through which one enters the details like name, age, gender, height, weight, and contact information to be able to calculate BMI and categorize it as per standard health specifications. Using AI,system will be able to provide diet and exercise recommendations fitted to that person's body type and lifestyle. A professional report will be created, including an AI-generated before and after visualization to inspire the users. This report will be automatically sent to user through WhatsApp for convenience. On another note, the system will continue to remind users every week with new diet charts tailored to fit their progress and goal, keeping the user motivated and transformed.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Expected Outcome: The project intends to build an evolving intelligent wellness assistant that uses AI and automation as a means to enable and motivate people for healthier living through data-driven, personalized, and entertaining fitness planning.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Introduction: Adopting unhealthy lifestyles evident by poor diet, inactivity, and lack of regularly scheduled physical activity, has become a worldwide public health problem. The increase in obesity, cardiovascular disease, diabetes, and other related conditions indicates the need for pre-emptive and personalized intervention. Standard health monitoring approaches, such as generic fitness plans or static BMI calculators, usually do not provide actionable information for the individual and what behavioural change, if any, can be sustained.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Digital health platforms, which can offer personalized insight, facilitate tracking of user progress, and reinforce adherence to improved wellness routines, have the potential to address these issues. What can be an issue, however, is that many health apps are either limited to simple monitoring, or present only basic and standardized recommendations as an output. Users often require motivation, adaptive guidance and interactive feedback to translate health data into appropriate, meaningful action that can ultimately lead to the more positive elements of their well-being.
 
-## Learning Laravel
+This project will work in to offer a brief solution to these issues, through a web-based health management system that provides AI-based recommendation algorithms, visual or graphic tracking options, and automatic recommendations and updates. By monitoring user health metrics, structured guidance, and engagement consistently, the system will help in enabling users to make decisions based on, and to improve their knowledge, skills, and abilities, and attempt to put into practice specific healthy behavior changes. In the ideal case of the study, user successes will lead ultimately to improved decision-making, and the maintenance of your behavioral change cycle, behavioral change behavior, and eventually the maintenance of healthier habits.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Project Goals:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+--> To create a cloud-based health management application that calculates the user’s Body Mass Index (BMI) based on information provided by the user such as age, gender, height, and weight.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+--> To give tailored health recommendations using integrated AI models off recommendations for diet and exercise.
 
-## Laravel Sponsors
+--> To create motivational graphics that depict potential body improvement, to keep users engaged in the program.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+-->To provide automated weekly health report updates to the user through an automated message API to continue to interact with the user.
 
-### Premium Partners
+-->To build a responsive and intuitive user interface through current front end technology which allows the back-end application to process the user data.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+ Project Details:
 
-## Contributing
+1.Frontend:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+--> JavaScript – Implements client-side interactivity and form handling.
 
-## Code of Conduct
+--> Bootstrap – Ensures a responsive and visually appealing user interface across devices.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+2.Backend:
 
-## Security Vulnerabilities
+--> Laravel (PHP Framework) – Manages application logic, routes, and user data processing.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+--> PHP – Handles server-side operations, BMI calculations, and API integrations efficiently.
 
-## License
+3.APIs and AI Integration:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+--> GPT-4o-mini API – Generates personalized health, diet, and exercise recommendations.
+
+--> GPT-image-1 API – Produces AI-generated motivational visuals representing user progress.
+
+--> WhatsApp API – Delivers automated weekly updates, reminders, and personalized health reports directly to users.
+
+4.Database:
+
+--> MySQL – Stores user details and system-generated health data securely and efficiently.
+
+5.Tools & Environment:
+
+--> VS Code — Development environment
+
+--> Git / GitHub — Version control and project hosting
+
+6.Phase status:
+
+The project is in Development phase.
+
+--> Frontend development has been completed using Laravel, PHP, JavaScript, and Bootstrap, ensuring a responsive and user-friendly interface.
+
+--> Image generation functionality using the gpt-image-1 API is successfully integrated and operational.
+
+--> GPT-4o-mini API has been integrated for personalized text-based recommendations.
+
+--> Integration of the WhatsApp API and final testing of automated update features are in progress.
+
+7.Risk Consideration:
+  This project involves several potential risks related to data handling, API integration, and system performance:
+
+--> Integration Delays: Third-party API dependencies (such as WhatsApp and GPT models) may face downtime, access limitations, or version updates that could affect smooth functionality.
+
+--> Data Accuracy Risks: The system relies on user-provided details (age, height, weight, etc.), and inaccurate or incomplete inputs may lead to less reliable BMI calculations and recommendations.
+
+--> Performance Bottlenecks: As the number of users increases, multiple API calls (text, image, and messaging) could lead to higher response times and increased server load.
+
+--> Data Privacy Concerns: Handling user health data requires careful management to prevent unauthorized access or misuse, especially when integrating with external APIs.
+
+--> Scalability Challenges: The current design is suitable for a prototype or controlled user base; scaling to a production-level system may require backend optimization and advanced database management.
+
+--> AI Recommendation Limitations: The AI-generated diet and exercise plans depend on general health data and may not account for specific medical conditions or individual differences.
+
+8.Implementation:
+This AI-powered BMI & Health Tracking System is built using Laravel and leverages multiple APIs to provide personalized health insights. 
+Workflow: 
+
+-->User Input: Users submit personal details such as name, age, height, weight, occupation, nationality, health issues, and upload a photo.
+
+--> AI Processing: 1.The photo is sent to GPT-Image API to generate a personalized health-related image. 2.User data is sent to GPT API to generate a 90-day weekly diet and exercise plan tailored to the user’s profile.
+
+--> PDF Generation: DomPDF is used to compile the AI-generated image and the diet/exercise plan into a downloadable PDF report.
+
+--> Delivery: The PDF is sent directly to the user via WhatsApp (using Wasender API) or made available for download through the frontend.
+
+9.Testing:
+
+    1.User Input & Form Validation 
+    --> Verified all required fields (name, age, gender, height, weight) are filled and validated. 
+    --> Checked input formats (e.g., numeric fields,phone numbers) with client-side and server-side validation.
+    --> Image uploads were tested for file type (JPG, PNG, JPEG), size limits, and corruption.
+    --> Edge cases like extreme height or age were rejected for safety.
+
+    2.BMI Calculation Verification 
+    --> Cross-checked BMI outputs against manual calculations. 
+    --> Verified correct category mapping (Underweight, Normal, Overweight, Obese) and decimal conversions.
+
+    3.AI Prompt & Response Testing (GPT-4o-mini) 
+    --> Tested diet/exercise plan generation for various user profiles. 
+    --> Ensured outputs include 12-week plans with structured weekly instructions. 
+    --> Checked for no incomplete sections and proper fallback messages for API failures.
+
+    4.AI Image Generation Testing 
+    --> Confirmed successful processing of user photos and correct “Before”/“After” outputs. -->Handled corrupted, missing, or oversized images with proper error messages. 
+    --> Verified base64 decoding and storage on multiple devices.
+
+    5.PDF Generation (DomPDF) Testing 
+    --> Verified placement of user details, original & AI images, and weekly charts. 
+    --> Ensured multi-page format integrity, consistent fonts, and readability.
+    --> Tested longer content for text overflow or page cut-offs. 
+    --> Checked file naming, download links, and storage paths.
+
+    6.Error Handling & Edge Cases 
+    --> Tested missing fields, invalid file types, AI API outages, PDF generation failures, and slow devices. 
+    -->All errors trigger friendly messages without crashing the system.
+
+    7.End-to-End Workflow Testing 
+    -->Complete workflow tested: user input → photo upload → BMI calculation → AI diet/exercise plan → AI image generation → PDF creation → report download.
+
+10.Conclusion: 
+The Health Management System demonstrates how AI can personalize health and fitness recommendations using user data such as age, gender, height, weight, activity level, and an uploaded photo. It generates a BMI-based health report, customized diet and exercise plans, and an AI-created motivational image, all compiled into a standardized PDF for easy reading.This project highlights the integration of AI with traditional health assessments, automation, and PDF generation, providing a streamlined approach to wellness tracking. It also showcases backend development, API integration, and prompt engineering, laying the foundation for a future fully integrated digital health assistant.
